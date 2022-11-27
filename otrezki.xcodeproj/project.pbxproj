@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8B8D68D292CF07900996F14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B8D68C292CF07900996F14 /* main.cpp */; };
+		F88CA755292FE71500D291C2 /* flags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F88CA753292FE71500D291C2 /* flags.cpp */; };
+		F88CA75C292FF17000D291C2 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = F88CA75B292FF17000D291C2 /* Makefile */; };
+		F8B8D68D292CF07900996F14 /* otrezki.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B8D68C292CF07900996F14 /* otrezki.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F88CA753292FE71500D291C2 /* flags.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flags.cpp; sourceTree = "<group>"; };
+		F88CA756292FE76300D291C2 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F88CA75B292FF17000D291C2 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		F8B8D689292CF07900996F14 /* otrezki */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = otrezki; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8B8D68C292CF07900996F14 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8B8D68C292CF07900996F14 /* otrezki.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = otrezki.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,10 @@
 		F8B8D68B292CF07900996F14 /* otrezki */ = {
 			isa = PBXGroup;
 			children = (
-				F8B8D68C292CF07900996F14 /* main.cpp */,
+				F8B8D68C292CF07900996F14 /* otrezki.cpp */,
+				F88CA753292FE71500D291C2 /* flags.cpp */,
+				F88CA756292FE76300D291C2 /* Header.h */,
+				F88CA75B292FF17000D291C2 /* Makefile */,
 			);
 			path = otrezki;
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B8D68D292CF07900996F14 /* main.cpp in Sources */,
+				F88CA75C292FF17000D291C2 /* Makefile in Sources */,
+				F8B8D68D292CF07900996F14 /* otrezki.cpp in Sources */,
+				F88CA755292FE71500D291C2 /* flags.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
