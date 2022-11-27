@@ -55,7 +55,7 @@ int func(char **argv) {
     }
     double nach=arr[0][0];
     double kon=arr[0][1];
-    bool flag=false; //прыжок
+    bool flag=false; //проверка прыжок
     bool nichego=true; //единичных отрезков
     for(int i=1;i<n;i++){
         if (arr[i][0]<kon)//слияние
